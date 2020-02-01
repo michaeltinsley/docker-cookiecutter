@@ -10,10 +10,13 @@ Forked from [Audreyr docker-cookiecutter](https://github.com/audreyr/docker-cook
 # Usage
 
 A sample command:
+
+Change the `TEMPLATE` variable to your Cookiecutter repository.
+ 
 ```shell script	
 docker run -it --rm \
 	-e LC_ALL=C.UTF-8 \
-	-e TEMPLATE=gh:audreyr/cookiecutter-pypackage \
+	-e TEMPLATE=gh:pawamoy/cookiecutter-awesome \
 	-e OUT_DIR=/cookie \
 	-v $(PWD):/cookie \
 	michaeltinsley/cookiecutter
